@@ -5,8 +5,8 @@ A modern React + Vite portfolio platform featuring a responsive glassmorphism UI
 ---
 
 ## Preview
+<img width="1106" height="958" alt="Screenshot 2026-05-08 at 3 29 59 PM" src="https://github.com/user-attachments/assets/7af74d23-9049-4e61-baad-bc754dcd4fbb" />
 
-![Project Screenshot](./public/project-preview.png)
 
 ---
 
