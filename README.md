@@ -1,16 +1,119 @@
-# React + Vite
+# Personal Project Showcase App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React + Vite portfolio platform featuring a responsive glassmorphism UI, dynamic project management, search filtering, and testing with Vitest + React Testing Library.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Preview
 
-## React Compiler
+![Project Screenshot](./public/project-preview.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add new portfolio projects dynamically
+- Search and filter projects instantly
+- Modern glassmorphism UI
+- Responsive design
+- Component-based React architecture
+- Unit testing with Vitest and React Testing Library
+- Built with Vite for fast development
+
+---
+
+## Tech Stack
+
+- React
+- Vite
+- CSS3
+- Vitest
+- React Testing Library
+
+---
+
+## Project Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── ProjectForm.jsx
+│   ├── ProjectList.jsx
+│   ├── ProjectCard.jsx
+│   └── SearchBar.jsx
+│
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ROUSE-prog/portfolio-platform.git
+```
+
+Move into the project folder:
+
+```bash
+cd portfolio-platform
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Running Tests
+
+Run the Vitest suite:
+
+```bash
+npm test
+```
+
+---
+
+## UI Inspiration
+
+The interface was inspired by futuristic glassmorphism dashboards featuring:
+
+- Neon gradients
+- Frosted glass effects
+- Responsive card layouts
+- Smooth hover interactions
+
+---
+
+## Future Improvements
+
+- LocalStorage persistence
+- Edit/Delete functionality
+- Project image uploads
+- Framer Motion animations
+- Backend integration with Supabase/Firebase
+- Authentication
+- Drag-and-drop sorting
+
+---
+
+## Author
+
+Steven Rouse
+
+- GitHub: https://github.com/ROUSE-prog
+- LinkedIn: https://www.linkedin.com/in/stevenrouse/
